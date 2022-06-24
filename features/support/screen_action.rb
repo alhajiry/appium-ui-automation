@@ -20,4 +20,5 @@ def swipe(direction)
     end
 
     Appium::TouchAction.new.press(x: start_x, y: start_y).wait(800).move_to(x: end_x, y: end_y).release.perform
+    puts "sucess swiped #{direction}"
 end
