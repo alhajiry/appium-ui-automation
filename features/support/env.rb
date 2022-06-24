@@ -7,10 +7,13 @@ capabilities = {
   caps: {
     deviceName: 'emulator-5554',
     platformName: 'Android',
-    app: '',
-    appPackage: '',
-    appActivity: '',
+    platformVersion: '10.0',
+    fullReset: false,
+    noReset: true,
+    appPackage: 'com.mekari.flex',
+    appActivity: 'com.mekari.flex.MainActivity',
     appWaitActivity: '*'
+    
   },
   appium_lib:{
     server_url: 'http://0.0.0.0:4723/wd/hub',
